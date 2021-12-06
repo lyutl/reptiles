@@ -128,6 +128,11 @@ input {
   width: 90%;
 }
 
+textarea {
+  width: 100%;
+  max-width: 100%;
+}
+
 select {
   height: 30px;
   width: 30%;
