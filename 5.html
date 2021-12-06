@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images\reptiles.png" type="image/x-icon">
+    <title>Обратная связь</title>
+  </head>
+  <body>
+
+    <div id="header">
+      <table align="center">
+        <tr>
+          <td>
+            <a href="images\reptiles1.png" target="_blank">
+              <img src="images\reptiles1.png" width="75px">
+            </a>
+          </td>
+          <td><h1><a name="top"></a>НЕВОРОЯТНЫЕ РЕПТИЛИИ!</h1></td>
+          <td>
+            <a href="images\reptiles2.png" target="_blank">
+              <img src="images\reptiles2.png" width="75px">
+            </a>
+          </td>
+        </tr>
+      </table>
+
+      <nav>
+        <a href="1.html">Змеи</a> |
+        <a href="2.html">Ящерицы</a> |
+        <a href="3.html">Крокодилы</a> |
+        <a href="4.html">Черепахи</a> |
+        <a class="current" href="5.html">Обратная связь</a> |
+        <a href="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D0%BC%D1%8B%D0%BA%D0%B0%D1%8E%D1%89%D0%B8%D0%B5%D1%81%D1%8F" target="_blank">Википедия</a> |
+        <a href="index.html"><img src="images\home.png" width=35 align="center"></a>
+      </nav>
+    </div>
+
+    <hr size="20" color="#3CB371">
+
+    <div class="main" id="form" align="center">
+      <table border="2px" bordercolor="#2E8B57" background="images\main_bg_table.svg" cellpadding="20px">
+        <form action="http://g06u33.nn2000.info/cgi-bin/form_action.py" method="post" target="_blank">
+          <tr><h2>Мы ждём ваших сообщений!</h2>
+            <td>
+              <p>Имя:<br><input type="text" name="first_name" placeholder="Ваше имя.." size=10></p>
+              <p>Фамилия:<br><input type="text" name="last_name" placeholder="Ваша фамилия.." size=10></p>
+              <p>Возраст:<br><input type="number" name="age" placeholder="Ваш возраст.." size=10></p>
+            </td>
+            <td>
+              <p>Номер телефона:<br><input type="text" name="phone_number" placeholder="Ваш номер телефона.." size=10></p>
+              <p>E-mail:<br><input type="text" name="email" placeholder="Ваш e-mail.." size=10></p>
+              <p>Дата:<br><input type="date" name="date"></p>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <p>Любимые рептилии:
+                <select name="reptiles">
+                  <option>Выберите рептилию</option>
+                  <option value="Змеи">Змеи</option>
+                  <option value="Ящерицы">Ящерицы</option>
+                  <option value="Крокодилы">Крокодилы</option>
+                  <option value="Черепахи">Черепахи</option>
+                </select>
+              </p>
+              <p>Обоснуйте Ваш выбор:<br><textarea name="textarea" cols=72 rows=10></textarea></p>
+              <p><input class="send" type="reset" name="reset" value="Обновить">
+                <input class="send" type="submit" name="submit" value="Отправить"></p>
+            </td>
+          </tr>
+        </form>
+      </table>
+    </div>
+
+    <div id="arrow" align="center">
+      <a href="#top"><img src="images\arrow_icon.png" width="45"></a>
+    </div>
+
+  </body>
+</html>
