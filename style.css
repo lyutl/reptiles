@@ -129,8 +129,8 @@ input {
 }
 
 textarea {
-  width: 100%;
-  max-width: 100%;
+  width: -moz-available;
+  width: -webkit-fill-available;
 }
 
 select {
