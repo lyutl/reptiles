@@ -68,8 +68,18 @@
                   </select>
                 </p>
                 <p>Обоснуйте Ваш выбор:<br><textarea name="textarea" rows=10></textarea></p>
+                <p>Название файла:
+                  <input id="filename" type="tехt" name="000_file_name" value="09talanina.txt"></p>
+                <p>Тип записи в файл:
+                  <select name="010_mode">
+                    <option value="a">a - дозаписать в файл</option>
+                    <option value="w">w - очистить файл и записать в файл</option>
+                  </select>
+                  <input type="hidden" name="function" value="page">
+                  <input type="hidden" name="page_id" value="3"></p>
                 <p><input type="reset" name="reset" value="Обновить">
                   <input type="submit" name="submit" value="Отправить"></p>
+                </p><a id="results" href="http://g06u33.nn2000.info/tmp/09talanina.txt" target="_blank">Результаты</a></p>
               </td>
             </tr>
           </table>
