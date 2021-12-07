@@ -14,6 +14,8 @@ body {
 
 #header table {
   padding: 0 0 6px 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #header h1 {
@@ -48,6 +50,16 @@ a.current {
   font-weight: bolder;
 }
 
+.big {
+  height: 20px;
+}
+
+hr {
+   height: 10px;
+   background-color: #3CB371;
+   border: none;
+}
+
 marquee {
   font-size: 23px;
   color: #2E8B57;
@@ -60,7 +72,25 @@ marquee {
 
 #summary {
   margin: 50px;
+  display: flex;
+  justify-content: center;
 }
+
+#summary table, #summary tr, #summary td {
+  border: 2px solid #2E8B57;
+}
+
+#summary table {
+  background: url(images/main_bg_table.svg);
+}
+
+ #summary td {
+   padding: 20px;
+ }
+
+ #withbg {
+   background: url(images/yellow_bg.jpg);
+ }
 
 td {
   font-size: 25px;
@@ -79,6 +109,7 @@ h2:hover {
 
 .text {
   margin: 50px;
+  text-align: justify;
 }
 
 .image {
@@ -99,15 +130,25 @@ h2:hover {
 
 #arrow {
   padding: 50px 0 0 0;
+  display: flex;
+  justify-content: center;
 }
 
-#form h3 {
-  text-align: center;
+#form {
+  display: flex;
+  justify-content: center;
+}
+
+#form table, #form tr, #form td {
+  border: 2px solid #2E8B57;
 }
 
 #form table {
-  width: 50%;
+  width: 60%;
   table-layout: fixed;
+  background: url(images/main_bg_table.svg);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #form table td {
