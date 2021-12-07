@@ -60,11 +60,6 @@ hr {
    border: none;
 }
 
-marquee {
-  font-size: 23px;
-  color: #2E8B57;
-}
-
 .main {
   font-size: 20px;
   color: #2F4F4F;
@@ -76,16 +71,18 @@ marquee {
   justify-content: center;
 }
 
-#summary table, #summary tr, #summary td {
+#summary table {
+  background: url(images/main_bg_table.svg);
   border: 2px solid #2E8B57;
 }
 
-#summary table {
-  background: url(images/main_bg_table.svg);
+#summary tr {
+  border: 2px solid #2E8B57;
 }
 
  #summary td {
    padding: 20px;
+   border: 2px solid #2E8B57;
  }
 
  #withbg {
@@ -139,21 +136,23 @@ h2:hover {
   justify-content: center;
 }
 
-#form table, #form tr, #form td {
-  border: 2px solid #2E8B57;
-}
-
 #form table {
   width: 60%;
   table-layout: fixed;
   background: url(images/main_bg_table.svg);
+  border: 2px solid #2E8B57;
   margin-left: auto;
   margin-right: auto;
 }
 
-#form table td {
+#form tr {
+  border: 2px solid #2E8B57;
+}
+
+#form td {
   padding: 25px;
   width: 100%;
+  border: 2px solid #2E8B57;
 }
 
 #form form {
@@ -170,6 +169,8 @@ input {
 }
 
 textarea {
+  width: 100%;
+  width: stretch;
   width: -moz-available;
   width: -webkit-fill-available;
 }
@@ -197,15 +198,8 @@ input[type=submit], input[type=reset] {
   border-radius: 4px;
   color: #FFFFFF;
   margin: 7px 2px 0 2px;
-  cursor: pointer;
-}
-
-.send {
   width: 20%;
-}
-
-#result {
-  width: 35%;
+  cursor: pointer;
 }
 
 input[type=submit]:hover, input[type=reset]:hover {
