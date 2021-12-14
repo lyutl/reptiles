@@ -226,7 +226,6 @@ input[type=submit]:hover, input[type=reset]:hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 4px;
 }
 
 .bold {
