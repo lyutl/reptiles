@@ -210,6 +210,25 @@ input[type=submit]:hover, input[type=reset]:hover {
   background-color: #5AE05A;
 }
 
+#results {
+  font-size: x-large;
+}
+
 #results:hover {
   color: #5AE05A;
+}
+
+#image {
+  background-color: #FFFFFF;
+}
+
+#open {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+}
+
+.bold {
+  font-weight: bold;
 }
