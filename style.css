@@ -223,11 +223,14 @@ input[type=submit]:hover, input[type=reset]:hover {
 }
 
 #open {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#open img {
+  height: 600px;
 }
 
 .bold {
